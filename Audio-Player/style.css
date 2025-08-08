@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.player {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+.controls button {
+    background-color: gray;
+    border: none;
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+#progress-bar-container {
+    flex: 1;
+    height: 5px;
+    background-color: #444;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+#progress-bar {
+    background-color: #1db954;
+    height: 5px;
+    width: 0%;
+}

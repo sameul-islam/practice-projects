@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kanban Board</title>
+</head>
+<body>
+    <h1>Kanban Board</h1>
+    <div class="board">
+        <div class="column" data-status="todo">
+            <h2>To Do</h2>
+            <div class="task-container" id="todo-tasks"></div>
+            <button onclick="openModal('todo')">+ Add Task</button>
+        </div>
+        <div class="column" data-status="in-progress">
+            <h2>In Progress</h2>
+            <div class="task-container" id="in-progress-tasks"></div>
+            <button onclick="openModal('in-progress')">+ Add Task</button>
+        </div>
+        <div class="column" data-status="done">
+            <h2>Done</h2>
+            <div class="task-container" id="done-tasks"></div>
+            <button onclick="openModal('done')">+ Add Task</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Add Task</h3>
+            <input type="text" id="task-input" placeholder="Enter task...">
+            <input type="hidden" id="task-status">
+            <button onclick="addTask()">Add</button>
+            <button onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+
+
+
+    
+
+<script src="script.js"></script>
+</body>
+</html>

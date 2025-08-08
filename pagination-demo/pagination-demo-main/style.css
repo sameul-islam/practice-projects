@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+body {
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 700px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+#post-list {
+  list-style: none;
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+#post-list li {
+  background-color: #e8f0fe;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-align: left;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+#post-list li:hover {
+  background-color: #d0e2ff;
+}
+.button-group {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+.animate-slide-in-right {
+    animation: slideInRight 0.5s ease forwards;
+}
+.animate-slide-in-left {
+    animation: slideInLeft 0.5s ease forwards;
+}
+.animate-slide-out-left {
+    animation: slideOutLeft 0.5s ease forwards;
+}
+.animate-slide-out-right {
+    animation: slideOutRight 0.5s ease forwards;
+}
+@keyframes slideInRight {
+    from {transform: translateX(50%); opacity: 0;}
+    to {transform: translateX(0%); opacity: 1;}
+}
+@keyframes slideInLeft {
+    from {transform: translateX(-50%); opacity: 0;}
+    to {transform: translateX(0%); opacity: 1;}
+}
+@keyframes slideOutLeft {
+    from {transform: translateX(0%); opacity: 1;}
+    to {transform: translateX(-50%); opacity: 0;}
+}
+@keyframes slideOutRight {
+    from {transform: translateX(0%); opacity: 1;}
+    to {transform: translateX(50%); opacity: 0;}
+}

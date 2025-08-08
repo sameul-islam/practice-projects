@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Multi-Step Form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+      <div class="step active">1</div>
+      <div class="step">2</div>
+      <div class="step">3</div>
+    </div>
+
+    <form id="multiForm">
+      <div class="form-step active">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Your Name" />
+        <span class="error"></span>
+        <button type="button" class="next">Next</button>
+      </div>
+
+      <div class="form-step">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email"/>
+        <span class="error"></span>
+        <button type="button" class="prev">Back</button>
+        <button type="button" class="next">Next</button>
+      </div>
+
+      <div class="form-step">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password"/>
+        <span class="error"></span>
+        <button type="button" class="prev">Back</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div id="result" class="success-msg"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

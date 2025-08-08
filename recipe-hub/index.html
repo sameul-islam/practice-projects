@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Recipe Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Recipe Hub</h1>
+        <input type="text" id="search-input" placeholder="Search any food..."/>
+        <button id="search-btn">Search</button>
+        <button id="fav-btn">My Favorites</button>
+    </header>
+    <main>
+        <section id="cards"></section>
+        <p id="msg"></p>
+    </main>
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+            <span id="close"><i class="fa-solid fa-xmark"></i></span>
+            <img id="modal-img">
+            <h2 id="modal-title"></h2>
+            <h4>Ingredients</h4>
+            <ul id="ingredients"></ul>
+            <h4>Instructions</h4>
+            <p id="instructions"></p>
+            <button id="save-btn">Save</button>
+        </div>
+    </div>
+
+
+    
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+h1 {
+    margin: auto;
+    color: #333;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+.board {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.column {
+    background-color:  darkslategrey;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.task-container {
+    min-height: 100px;
+    padding: 15px;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+}
+.task {
+    background-color: black;
+    margin-bottom: 10px;
+    padding:25px 5px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    cursor: grab;
+    font-size: 19px;
+}
+button {
+    margin-top: 25px;
+    font-size: 19px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+button:hover {
+    background-color: green;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.modal h3{
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    background-color: whitesmoke;
+    padding: 14px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.2);
+}
+.modal-content {
+    background-color: white;
+    height: 250px;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.modal input {
+    width: 91%;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 19px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.hidden {
+    display: none;
+}

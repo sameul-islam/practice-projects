@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+}
+#clock {
+    font-size: 48px;
+    padding: 8px;
+    border-radius: 10px;
+}
+input[type="time"] {
+    padding: 8px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}

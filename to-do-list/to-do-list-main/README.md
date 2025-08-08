@@ -10,4 +10,4 @@ Each obstacle I faced taught me something new and helped me understand things mo
 Thank you for taking the time to read about my code.
 
 🔗View the live demo of this project by clicking the link below.   
-   https://sameul-islam.github.io/practice-project/to-do-list/to-do-list-main/
+   https://sameul-islam.github.io/practice-projects/to-do-list/to-do-list-main/

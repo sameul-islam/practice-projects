@@ -23,10 +23,72 @@ Thank you very much for taking the time to read this.
 
 ##  Features  
 
-HTML, CSS, javaScript .  
+HTML  
+CSS  
+javaScript .  
 
 
 ##  Live Demo  
 
 ####  Multi Step Form  
-https://sameul-islam.github.io/practice-projects/multi-step-form
+https://sameul-islam.github.io/practice-projects/multi-step-form  
+
+####  Pie Chart  
+https://sameul-islam.github.io/practice-projects/Pie-Chart  
+
+####  Recipe Hub  
+https://sameul-islam.github.io/practice-projects/recipe-hub  
+
+####  Pegination Demo  
+https://sameul-islam.github.io/practice-projects/pagination-demo/pagination-demo-main/  
+
+####  Audio Player  
+https://sameul-islam.github.io/practice-projects/Audio-Player  
+
+####  Image Slider  
+https://sameul-islam.github.io/practice-projects/image-slider  
+
+####  Kanban Board  
+https://sameul-islam.github.io/practice-projects/kanban-board  
+
+####  Recipe Search  
+https://sameul-islam.github.io/practice-projects/recipe-search  
+
+####  To-Do List  
+https://sameul-islam.github.io/practice-projects/to-do-list/to-do-list-main  
+
+####  Blog  
+https://sameul-islam.github.io/practice-projects/Blog  
+
+####  Typing Game  
+https://sameul-islam.github.io/practice-projects/Typing-Game  
+
+####  BMI Calculator  
+https://sameul-islam.github.io/practice-projects/bmi-calculator  
+
+####  Digital Alarm  
+https://sameul-islam.github.io/practice-projects/digital-alarm  
+
+####  Form Validation  
+https://sameul-islam.github.io/practice-projects/form-validation  
+
+####  News Website  
+https://sameul-islam.github.io/practice-projects/news-website  
+
+####  Note App  
+https://sameul-islam.github.io/practice-projects/note-app  
+
+####  Review Rating  
+https://sameul-islam.github.io/practice-projects/review-rating  
+
+####  Search Users  
+https://sameul-islam.github.io/practice-projects/search-users/search-users-main/  
+
+####  Simple Quiz  
+https://sameul-islam.github.io/practice-projects/simple-quiz-app/simple-quiz-app-main/  
+
+####  Speed Test  
+https://sameul-islam.github.io/practice-projects/speed-test  
+
+
+

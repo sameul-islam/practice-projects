@@ -11,4 +11,5 @@ The API used here is a fake API, which I’ve used purely for testing purposes.
 Thank you for taking the time to read a bit about my project.
 
 > 🔗View the live demo of this project by clicking the link below.
+> 
 > https://sameul-islam.github.io/practice-project/search-users/search-users-main/
